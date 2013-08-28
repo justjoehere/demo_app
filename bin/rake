@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+#Had to change !/user/bin/env ruby.exe to just ruby as in above.  Heroku db:migrate fails otherwise.
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run

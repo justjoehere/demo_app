@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
+#Had to change !/user/bin/env ruby.exe to just ruby as in above.  Heroku db:migrate fails otherwise.
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
 load Gem.bin_path('bundler', 'bundle')
